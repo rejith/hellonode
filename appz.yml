@@ -1,7 +1,7 @@
 app:
     name: Hello Node
     code: hellonode
-    notify: appzdev@cloudbourne.co
+    notify: nmeeran@ecloudcontrol.com
 
 build:
     version: 0.1
@@ -12,7 +12,7 @@ build:
 
 
 deploy:
-    context: nashida2210
+    context: nashida2210/DEV
     replicas: 1
     port:
     - 8080
