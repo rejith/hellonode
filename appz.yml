@@ -12,7 +12,7 @@ build:
     args:
       SONARQUBE: enabled
       SONAR_LOGIN_TOKEN: $${build.token.sonar} 
-      SONAR_HOST_URL:  https://nashida2210-dev-sonarqube-8-2.038c839d.lowtouch.cloud
+      SONAR_HOST_URL:  https://alpha-dev-sonarqube-8-2.32d430c5.lowtouch.cloud
       SONAR_PROJECT_NAME: AppZNodeProject
       SONAR_PROJECT_KEY: AppZNodeProjectKey
       SCAN_LANG: node
