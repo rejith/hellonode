@@ -11,7 +11,7 @@ build:
     image_template: node-14.16
     args:
       SONARQUBE: enabled
-      SONAR_LOGIN_TOKEN: $${build.token.sonar} 
+      SONAR_LOGIN_TOKEN: 339d5b9a78de7227099c31b41bfef856887fe2fd 
       SONAR_HOST_URL:  https://alpha-dev-sonarqube-8-2.32d430c5.lowtouch.cloud
       SONAR_PROJECT_NAME: AppZNodeProject
       SONAR_PROJECT_KEY: AppZNodeProjectKey
