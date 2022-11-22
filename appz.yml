@@ -13,8 +13,8 @@ build:
       SONARQUBE: enabled
       SONAR_LOGIN_TOKEN: $${build.token.sonar} 
       SONAR_HOST_URL:  http://192.168.61.193:31561
-      SONAR_PROJECT_NAME: AppZNodeProject1
-      SONAR_PROJECT_KEY: AppZNodeProjectKey1
+      SONAR_PROJECT_NAME: HelloNodeRejith
+      SONAR_PROJECT_KEY: HelloNodeRejith
       SCAN_LANG: node
       NODE_MODULES: typescript
       NPM_RUN_SCRIPT: "build"
