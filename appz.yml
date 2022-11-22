@@ -1,7 +1,7 @@
 app:
     name: Hello Node
     code: hellonode
-    notify: dkarthik@ecloudcontrol.com
+    notify: krishnan.rejith@gmail.com
 
 build:
     version: 0.1
@@ -20,7 +20,7 @@ build:
       NPM_RUN_SCRIPT: "build"
 
 deploy:
-    context: dinesh-kd7/DEV
+    context: rejith/DEV
     replicas: 1
     port:
     - 8080
